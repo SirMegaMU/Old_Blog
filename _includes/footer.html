@@ -1,0 +1,145 @@
+<section class="footer">
+    <footer>
+        <div class = "footer_div">  
+        <nav class="cover-navigation navigation--social">
+          <ul class="navigation">
+
+          {% if site.social.github %}
+          <!-- Github -->
+          <li class="navigation__item_social">
+            <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/github.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.zhihu %}
+          <!-- Zhihu -->
+          <li class="navigation__item_social">
+            <a href="https://www.zhihu.com/people/{{site.social.zhihu}}" title="@{{site.social.zhihu}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/zhihu.png);"></div>
+            </a>
+          </li>
+
+          {% endif %}
+
+          {% if site.social.juejin %}
+          <!-- Juejin -->
+          <li class="navigation__item_social">
+            <a href="https://juejin.im/user/{{site.social.juejin}}" title="@{{site.social.juejin}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/juejin.png);"></div>
+            </a>
+          </li>
+
+          {% endif %}
+
+          {% if site.social.jianshu %}
+          <!-- Jianshu -->
+          <li class="navigation__item_social">
+            <a href="https://www.jianshu.com/u/{{site.social.jianshu}}" title="@{{site.social.jianshu}}的简书" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/jianshu.png);"></div>
+            </a>
+          </li>
+
+          {% endif %}
+
+          {% if site.social.weibo %}
+          <!-- Weibo -->
+          <li class="navigation__item_social">
+            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/weibo.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+          
+          {% if site.social.twitter %}
+          <!-- Twitter -->
+          <li class="navigation__item_social">
+            <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}的推特" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/twitter.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+
+          {% if site.social.telegram %}
+          <!-- Telegran -->
+          <li class="navigation__item_social">
+            <a href="https://t.me/{{site.social.telegram}}" title="@{{site.social.telegram}}的电报" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/telegram.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+
+          {% if site.social.codeforces %}
+          <!-- codeforces -->
+          <li class="navigation__item_social">
+            <a href="http://codeforces.com/profile/{{site.social.codeforces}}" title="@{{site.social.codeforces}}已经开摆了" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/codeforces.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+
+          {% if site.social.steam %}
+          <!-- steam -->
+          <li class="navigation__item_social">
+            <a href="https://steamcommunity.com/id/{{site.social.steam}}" title="@{{site.social.steam}}又在打电动" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/steam.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+
+
+          {% if site.social.mail %}
+          <!-- Email -->
+          <li class="navigation__item_social">
+            <a href="mailto:{{site.social.mail}}" title="Contact me">
+              <div class="footer-social-icon" style="background:url(/images/email.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+          
+          {% if site.social.feedspub %}
+          <!-- FeedsPub -->
+          <li class="navigation__item_social">
+            <a href="https://feeds.pub/{{site.social.feedspub}}" title="@{{site.social.feedspub}} in FeedsPub">
+              <div class="footer-social-icon" style="background:url(/images/feedspub.png);"></div>
+            </a>
+          </li>
+          {% endif %}
+          
+          <!-- RSS -->
+          <li class="navigation__item_social">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/rss.png);"></div>
+              <span class="label">RSS</span>
+            </a>
+          </li>
+
+          </ul>
+        </nav>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3585063968143785" crossorigin="anonymous"></script>
+        </div>
+
+        <div class = "footer_div">  
+           <p class="copyright text-muted">
+            Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} Theme by <a href="https://github.com/leopardpan">leopardpan</a> |
+            <img src="https://megamu.icu/images/ico64.png" style="height:24px; width:24px; margin-bottom: -6px;">
+            <a href="https://icp.gov.moe/?keyword=20227755" target="_blank">萌ICP备20227755号</a>
+            </p>
+        	<div align="right">
+    			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+          <!-- 访问统计 -->
+          <span id="busuanzi_container_site_pv">
+            From 2021-08-18,本站总访问量
+            <span id="busuanzi_value_site_pv"></span>次
+          </span>
+          
+        </div>
+        <div>
+    </footer>
+</section>

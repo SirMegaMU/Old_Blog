@@ -1,0 +1,84 @@
+# Basic
+title: MegaMU个人站
+subtitle: 欢迎光临
+description: 落日黄沙  白帆秋水  你可知谁的记忆在时空里飞？
+# 头像里面的标题
+avatarTitle: MegaMU
+# 头像里面的描述
+avatarDesc: Coding & life
+url: "https://megamu.icu/"
+
+# 博客是否自动生成目录，false为不生成
+enableToc: true
+
+# Comment
+comment:
+    livere: MTAyMC81MzgwMC8zMDI3Mw  # https://www.livere.com
+    # disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    # weibo: 7674937679
+    github: SirMegaMU
+    # zhihu: 风雪慢归程
+    # juejin: 761297657137879
+    # jianshu: 
+    twitter: MegaMU666
+    mail: sirmegamu@outlook.com
+    codeforces: MegaMU
+    feedspub: MegaMU
+    steam: MegaMU666
+    telegram: Mega_MU
+
+
+# 百度统计
+# 使用博客模板请去掉或者更换 id
+baidu:
+    # id: 9288125afe949dc2a5f2d6a855ce04f6
+    id: 3a8212ed0e86bf4c4fc9d07c2026dcca
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: G-L7SHH7HQ7N
+    host: auto
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 文章, description: archive, url: '/archive'}
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 支持, description: support, url: '/support'}
+    - {title: 关于, description: about, url: '/about'}
+    - {title: 迷思, description: thoughts, url: '/thoughts'}
+    - {title: 友链, description: friends, url: '/friends'}
+
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
