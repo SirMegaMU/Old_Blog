@@ -8,6 +8,8 @@ tags: 游戏
 在考雅思的前两天晚上自己偷闲汉化了[Disaster:Eclipse of Empires](https://steamcommunity.com/sharedfiles/filedetails/?id=2805088800
 )这个mod。原mod在社区中热度一直较高，但还尚未被汉化过，我就顺便拿来汉化并当作是练练手了。
 
+这里是它的链接:<https://steamcommunity.com/sharedfiles/filedetails/?id=2839073055>
+
 # 说明
 
 ![Steam Update Date](https://img.shields.io/steam/update-date/2839073055?color=blue&logo=steam)  ![Steam Subscriptions](https://img.shields.io/steam/subscriptions/2839073055?logo=steam)
