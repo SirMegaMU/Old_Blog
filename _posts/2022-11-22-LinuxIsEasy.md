@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Week With Ubuntu 
-date: 2022 11-22
+date: 2022 11 22
 tag: 杂项
 ---
 
