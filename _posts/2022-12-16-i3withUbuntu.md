@@ -1,4 +1,5 @@
 ---
+layout: post
 title: i3wm under Ubuntu
 date: 2022-12-16
 tags: 杂项
